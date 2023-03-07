@@ -30,3 +30,36 @@ function sumar(a, b) {
   return a + b;
 }
 console.log("el resultado es: " + sumar(5, 7));
+
+(function ehh() {
+  var friends, n, text, i;
+
+  amigos = [
+    "Ella",
+    "Javier",
+    "Wilder",
+    "Jesus",
+    "Rocio",
+    "Javier",
+    "Wilder",
+    "Jesus",
+  ];
+  n = amigos.length;
+  text = " ";
+  // friends.sort();
+  // friends.reverse();
+  // friends.splice(0, 2, "Lemon", "Kiwi");
+  // friends.pop();
+  // friends.shift();
+  // friends.copyWithin(2,0);
+  // friends.fill("Kiwi");;
+  // friends.fill("Kiwi", 2, 4)
+  for (i = 0; i < n; i++) {
+    text += "<li>" + friends[i] + "</li>";
+  }
+  // text += " ";
+  // b1.innerHTML = text;
+})();
+
+ehh();
+console.log("1");
